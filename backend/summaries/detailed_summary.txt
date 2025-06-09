@@ -1,0 +1,7 @@
+# Detailed Summary
+- Model Used: bart-transformer
+- Generation Time: 19.3 seconds
+- Confidence: 0.5
+- Word Count: 73
+
+Employment Agreement between John O’Keefe and Verdisys, Inc. (the “Company’s” “Employment”) The Company agrees to employ the Executive in the position of Executive Vice President and Chief Financial Officer. The Company shall pay the Executive as compensation for his services during the first twelve (12) months of his Employment a base salary at a gross annual rate of $175,000. Executive shall receive a one time payment of $40,000 as a sign on bonus.

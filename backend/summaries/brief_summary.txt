@@ -1,0 +1,7 @@
+# Brief Summary
+- Model Used: bart-transformer
+- Generation Time: 10.3 seconds
+- Confidence: 0.5
+- Word Count: 23
+
+Employment Agreement: Agreement between John O’Keefe and Verdisys, Inc., a California corporation (the “Company”) Duties and Scope of Employment. Obligations to the Company.
