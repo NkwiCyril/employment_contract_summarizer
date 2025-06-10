@@ -30,7 +30,7 @@ class ModelHandler:
             logger.info("🚀 Loading AI summarization model...")
             
             # Use BART model (doesn't require SentencePiece)
-            model_name = "facebook/bart-large-cnn"
+            model_name = "facebook/bart-large"
             
             logger.info(f"📚 Loading BART model: {model_name}")
             
