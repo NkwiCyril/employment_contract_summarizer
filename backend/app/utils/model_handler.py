@@ -1,6 +1,3 @@
-# app/utils/model_handler_bart.py
-# Alternative AI model using BART (doesn't require SentencePiece)
-
 import torch
 from transformers import (
     AutoTokenizer, 
