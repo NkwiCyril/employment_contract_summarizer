@@ -46,9 +46,9 @@ def test_ai_summarization():
 
     # Test different summary types
     summary_types = [
-        ('brief', 150),
-        ('standard', 250),
-        ('detailed', 2000)
+        ('brief', 1500),
+        ('standard', 2500),
+        ('detailed', 20000)
     ]
 
     print(f"\n📄 Original contract length: {len(sample_contract.split())} words")

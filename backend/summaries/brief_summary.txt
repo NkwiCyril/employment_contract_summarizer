@@ -1,7 +1,7 @@
 # Brief Summary
-- Model Used: bart-transformer
-- Generation Time: 10.3 seconds
-- Confidence: 0.5
-- Word Count: 23
+- Model Used: bart-chunked-4/4
+- Generation Time: 61.5 seconds
+- Confidence: 0.7
+- Word Count: 248
 
-Employment Agreement: Agreement between John O’Keefe and Verdisys, Inc., a California corporation (the “Company”) Duties and Scope of Employment. Obligations to the Company.
+Employment Agreement between John O’Keefe and Verdisys, Inc. The Company agrees to employ the Executive in the position of Executive Vice President and Chief Financial Officer. No Conflicting Obligations. An initial option for the right to purchase an aggregate of 80,000 shares of the Company's common stock. The Company shall reimburse the Executive for such expenses upon presentation of an itemized account and appropriate supporting documentation, all in accordance with the Company’s generally applicable 2 policies. The Executive shall have a car allowance of $1,000 00 per month during the term of this Agreement. “Cause” shall mean any breach of the Invention, Confidential Information and Non-Competition Agreement referenced in Section 6 hereof between the Executive and the Company. “Constructive Termination’ means voluntary resignation of Executive within 60 days following: (i) Failure of executive to be elected or reelected to positions described in section 1(a) or his removal from any such position without his written consent. This Agreement is executed by the parties in the State of Texas and shall be interpreted in accordance with the laws of such State (except their provisions governing the choice of law) If any provision of this Agreement becomes or is deemed invalid, illegal or unenforceable in any jurisdiction, then such provision will be stricken and the rest of the Agreement will continue in full force and effect. Arbitration Any controversy or claim arising out of or relating to this. Agreement or the breach thereof, or  the Executive’s Employment or. the termination thereof

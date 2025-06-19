@@ -19,7 +19,8 @@ def create_app(config_name='development'):
     db.init_app(app)
     
     # Enable CORS
-    CORS(app, origins=['http://localhost:3000'])
+    CORS(app, supports_credentials=True)
+
     
     # Register blueprints
     from app.routes.auth import auth_bp

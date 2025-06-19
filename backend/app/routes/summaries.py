@@ -17,10 +17,10 @@ def generate_summary(contract_id):
         data = request.get_json() or {}
         summary_type = data.get('type', 'standard')  # brief, standard, detailed
         max_length = {
-            'brief': 150,
-            'standard': 250,
-            'detailed': 400
-        }.get(summary_type, 250)
+            'brief': 3000,
+            'standard': 5000,
+            'detailed': 8000
+        }.get(summary_type, 5000)
         
         # Extract text from contract
         if contract.file_path.lower().endswith('.pdf'):
