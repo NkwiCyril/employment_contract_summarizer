@@ -1,7 +1,12 @@
 from app import create_app
 import os
+from flask_cors import CORS
+
 
 app = create_app(os.getenv('FLASK_ENV', 'development'))
+
+# Initialize CORS for the Flask app
+CORS(app, supports_credentials=True)
 
 @app.route('/')
 def index():
