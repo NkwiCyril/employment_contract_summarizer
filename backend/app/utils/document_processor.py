@@ -30,18 +30,6 @@ class DocumentProcessor:
         except Exception as e:
             raise Exception(f"Error extracting text from PDF: {str(e)}")
 
-        # Optional fallback using PyPDF2 (less reliable)
-        # import PyPDF2
-        # try:
-        #     with open(file_path, 'rb') as file:
-        #         reader = PyPDF2.PdfReader(file)
-        #         text = ""
-        #         for page in reader.pages:
-        #             text += page.extract_text() + "\n"
-        #         return text.strip()
-        # except Exception as e:
-        #     raise Exception(f"Error extracting text with PyPDF2: {str(e)}")
-
     def extract_text_from_docx(self, file_path: str) -> str:
         """Extract text from DOCX file"""
         try:
