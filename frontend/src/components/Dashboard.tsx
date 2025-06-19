@@ -26,6 +26,8 @@ export default function Dashboard() {
   const fetchContracts = async () => {
     try {
       const response = await contractsAPI.getAll();
+
+      console.log(`HERE ARE THE CONTRACTS: ${response.contracts}`); // Debugging line to check the response structure
       setContracts(response.contracts);
       
       // Calculate stats

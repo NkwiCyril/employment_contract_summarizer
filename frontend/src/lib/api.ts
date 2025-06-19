@@ -4,7 +4,6 @@ const API_BASE_URL = 'http://127.0.0.1:5000/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 30000, // 30 seconds for file uploads
 });
 
 // Request interceptor to add auth token
@@ -56,7 +55,7 @@ export const contractsAPI = {
   },
   
   getAll: async (userId?: number) => {
-    const response = await api.get('/contracts', {
+    const response = await api.get('http://127.0.0.1:5000/api/contracts', {
       params: userId ? { user_id: userId } : {},
     });
     return response.data;

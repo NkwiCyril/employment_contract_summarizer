@@ -23,6 +23,8 @@ import {
   Info
 } from 'lucide-react';
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface ContractViewProps {
   contractId: number;
@@ -252,8 +254,8 @@ export default function ContractView({ contractId }: ContractViewProps) {
                           )}
                         </div>
                       </div>
-                      <div className="prose text-gray-700 whitespace-pre-wrap">
-                        {currentSummary.content}
+                      <div className="prose prose-sm max-w-none text-gray-700 markdown">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{currentSummary.content}</ReactMarkdown>
                       </div>
                     </div>
                     <div className="flex justify-between items-center text-sm text-gray-500">
