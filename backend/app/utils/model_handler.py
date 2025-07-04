@@ -301,7 +301,7 @@ class ModelHandler:
                 logger.info(f"🔄 Limiting to {max_chunks} most important chunks")
                 chunks = self._select_important_chunks(chunks, max_chunks)
             
-            logger.info(f"📄 Processing {len(chunks)} chunks")
+            # logger.info(f"📄 Processing {len(chunks)} chunks")
 
             # Process chunks with progress tracking
             summarized_sections = []
